@@ -1,0 +1,64 @@
+:root {
+  --main-font: "DM Sans", sans-serif;
+  --brand-green: #00856f;
+  --brand-green-light: #dce9e2;
+  --brand-green-light-02: #f7f9f9;
+  --brand-beige: #fffaf1;
+  --brand-green-hover: #00453a;
+  --gray-headline: #061800;
+  --gray-paragraph: #384633;
+  --white: #ffffff;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.doctor {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #fffaf1;
+}
+.doctor .doctor-bin {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.doctor .doctor-bin .doctor-holder {
+  display: flex;
+  width: 1120px;
+  padding: 20px;
+  margin: 160px 0;
+}
+.doctor .doctor-bin .doctor-holder .text {
+  flex: 1;
+  padding: 20px 20px 20px 67px;
+}
+.doctor .doctor-bin .doctor-holder .text h2 {
+  font-family: var(--main-font);
+  color: var(--brand-green);
+  font-size: 14px;
+  margin-bottom: 10px;
+  line-height: 21px;
+}
+.doctor .doctor-bin .doctor-holder .text h1 {
+  font-family: var(--main-font);
+  text-wrap: wrap;
+  color: #061800;
+  font-size: 40px;
+  margin: 0;
+  line-height: 52.08px;
+}
+.doctor .doctor-bin .doctor-holder .text p {
+  flex-wrap: wrap;
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 24px;
+  color: #495057;
+}
